@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+body{
+  background-image:url("../img/background.png");
+  background-size: cover;
+  font-family: IRANSansWeb;
+}
+
+@font-face {
+    font-family:'IRANSansWeb';/*تعریف یک نام برای فونت*/
+    src:url('../fonts/IRANSansWeb.ttf');/*اکسپلورر 9 به بعد*/
+    src:local('IRANSansWeb'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('IRANSansWeb'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('../fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('../fonts/IRANSansWeb.woff') format('woff'),/*مرورگر های جدید*/
+        url('../fonts/IRANSansWeb.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('../fonts/IRANSansWeb.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+    font-style:normal;
+    font-weight:normal;
+  }
+.content{
+  background-color:#fa9f61;
+  margin-top: 60px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 5px 9px;
+}
+a button{
+  color:#fa9f61;
+  background-color:#4b2891;
+  padding: 10px;
+  border:#4b2891;
+  border-radius: 15px;
+  margin: 4px;
+  margin-left: 20px;
+  transition: .5s;
+}
+a button:hover{
+  background-color:#fa9f61;
+  color:white;
+}
+
+p {
+  color:#4b2891;
+  line-height: 2em;
+}
+h1 {
+  color:#4b2891;
+}
+h2 {
+  color:#4b2891;
+
+}
+h3 {
+  color:#4b2891;
+
+}
+h4{
+  color:#fff;
+}
+h5{
+  color:#4b2891;
+
+}
+.desText{
+  padding: 20px;
+  /*margin-right: -40px;*/
+}
+.desImage{
+  margin-right: 20px;
+}
+.desImage img{
+  border-radius: 9px;
+  transition: 1s;
+  width: 187px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+.desImage img:hover{
+  border-radius: 20px;
+  filter: brightness(2);
+}
+
+.fCenter{
+  display: block;
+  float: none;
+  margin: auto;
+}
+
+.wholeDes{
+  margin-top: 30px;
+}
+.buttons{
+  margin-top: 50px;
+  padding-right: 60px;
+}
+input {
+  padding: 10px;
+  border:white;
+  border-radius: 9px;
+  width: 100%;
+}
+textarea{
+  border-radius: 10px;
+  border: 1px solid white;
+}
